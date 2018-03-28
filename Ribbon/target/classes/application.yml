@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: service-loadbalance
+
+server:
+  port: 6701
+
+cloud:
+  application:
+    name: weather-services
+
+eureka:
+  client:
+    service-url.defaultZone: http://localhost:6501/eureka,http://localhost:6502/eureka
+   #,localhost:8002/eureka
+
+weather-services:
+  ribbon:
+    eureka:
+      enabled: true
+    #listOfServers: http://localhost:6501/eureka,http://localhost:6502/eureka
+    ServerListRefreshInterval: 15000

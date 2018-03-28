@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CircuitBreaker/CircuitBreaker.iml" filepath="$PROJECT_DIR$/CircuitBreaker/CircuitBreaker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HystrixDashboard/HystrixDashboard.iml" filepath="$PROJECT_DIR$/HystrixDashboard/HystrixDashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ribbon/Ribbon.iml" filepath="$PROJECT_DIR$/Ribbon/Ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-root.iml" filepath="$PROJECT_DIR$/project-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/registry/registry.iml" filepath="$PROJECT_DIR$/registry/registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-provider/service-provider.iml" filepath="$PROJECT_DIR$/service-provider/service-provider.iml" />
+    </modules>
+  </component>
+</project>

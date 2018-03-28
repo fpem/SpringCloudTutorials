@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CircuitBreaker" />
+        <module name="gateway" />
+        <module name="HystrixDashboard" />
+        <module name="Ribbon" />
+        <module name="service-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CircuitBreaker" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="HystrixDashboard" target="1.8" />
+      <module name="parent" target="1.8" />
+      <module name="project-root" target="1.8" />
+      <module name="registry" target="1.8" />
+      <module name="registry (1)" target="1.8" />
+      <module name="Ribbon" target="1.8" />
+      <module name="ribbon" target="1.8" />
+      <module name="service-consumer" target="1.8" />
+      <module name="service-provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
